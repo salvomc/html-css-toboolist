@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: lightgrey;
+    background-color: rgb(246, 246, 246);
 }
 
 /* header */
@@ -29,3 +29,28 @@ header{
     font-weight: 650;
 }
 
+/* main */
+main{
+    background-color: white;
+    width: 75%;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px 5% 10px;
+}
+
+/* buttons */
+#add-task{
+    color: white;
+    background-color: rgb(23, 201, 255);
+    padding: 5px 10px;
+    border: 2px solid rgb(23, 201, 255);
+    border-radius: 5px;
+}
+
+#add-section{
+    color: lightgray;
+    padding: 5px 10px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+}
